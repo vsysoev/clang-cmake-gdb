@@ -1,4 +1,4 @@
-FROM clangbuiltlinux/ubuntu:latest
+FROM clangbuiltlinux/ubuntu:llvm10-latest
 LABEL org.opencontainers.image.source=https://github.com/vsysoev/clang-cmake-gdb
 
 ARG DEBIAN_FRONTEND=noninteractive
